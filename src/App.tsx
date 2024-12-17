@@ -1,21 +1,26 @@
-import { CheckCircleIcon } from '@chakra-ui/icons'
-import { Box, Button, ChakraProvider, Heading, Text } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react'
+import QuemSomos from './pages/QuemSomos/QuemSomos'
+import Servicos from './pages/Servicos/Servicos'
+import Parceiros from './pages/Parceiros/Parceiros'
+import Contato from './pages/Contato/Contato'
+import Header from './components/Header'
+import { Route, Routes } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <ChakraProvider>
-      <Box textAlign="center" p={6} bg="gray.50" minH="100vh">
-        <Heading mb={4} color="blue.700">
-          Bem-vindo ao Chakra UI!
-        </Heading>
-        <Text fontSize="lg" mb={4}>
-          Este é um exemplo básico usando Chakra UI com React e TypeScript.
-        </Text>
-        <Button colorScheme="teal" size="lg" leftIcon={<CheckCircleIcon />}>
-          Teste Chakra UI
-        </Button>
-      </Box>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/quem-somos" element={<QuemSomos />} />
+        <Route path="/servicos" element={<Servicos />} />
+        <Route path="/parcerias" element={<Parceiros />} />
+        <Route path="/contato" element={<Contato />} />
+      </Routes>
+      <Footer />
     </ChakraProvider>
   )
 }

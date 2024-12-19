@@ -18,7 +18,7 @@ const QuemSomos: React.FC = () => {
         px={4}
         boxShadow="lg"
         borderRadius="md"
-        backgroundImage="url('../public/quemSomos1.jpeg')"
+        backgroundImage="url('/quemSomos1.jpeg')"
         backgroundSize="cover" // Ajusta tamanho da imagem
         backgroundPosition="center" // Centraliza em todas as telas
         height={{ base: "60vh", sm: "70vh", md: "80vh" }} // Altura responsiva

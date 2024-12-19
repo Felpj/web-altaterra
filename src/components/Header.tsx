@@ -31,7 +31,7 @@ const Header: React.FC = () => {
                         {/* Logo ou Nome da Empresa */}
                         <Link as={RouterLink} to="/" _hover={{ textDecoration: "none" }}>
                             <Image
-                                src="../public/logoAlta2.png"
+                                src="/logoAlta2.png"
                                 alt="Altaterra Logo"
                                 width={{ base: "100px", sm: "120px", md: "190px" }}
                                 height="auto"

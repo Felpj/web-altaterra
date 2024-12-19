@@ -21,7 +21,7 @@ const RevisoesTributarias: React.FC = () => {
             <Text fontSize="xl">
               Realizamos auditorias detalhadas e consultoria tributária para otimizar a eficiência fiscal e garantir conformidade com as regulamentações vigentes.
             </Text>
-            <Image src="../public/tributario1.jpeg" alt="Revisões Tributárias" borderRadius="md" />
+            <Image src="/tributario1.jpeg" alt="Revisões Tributárias" borderRadius="md" />
           </VStack>
         </Container>
       </Box>

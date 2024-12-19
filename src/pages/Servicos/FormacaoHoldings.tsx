@@ -21,7 +21,7 @@ const FormacaoHoldings: React.FC = () => {
             <Text fontSize="xl">
               Planejamento estratégico e estruturação de holdings para proteger ativos e maximizar retornos a longo prazo.
             </Text>
-            <Image src="../public/holding1.jpeg" alt="Formação de Holdings" borderRadius="md" />
+            <Image src="/holding1.jpeg" alt="Formação de Holdings" borderRadius="md" />
           </VStack>
         </Container>
       </Box>

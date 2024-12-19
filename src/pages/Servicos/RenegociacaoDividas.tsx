@@ -21,7 +21,7 @@ const RenegociacaoDividas: React.FC = () => {
             <Text fontSize="xl">
               Estratégias eficazes para reestruturar dívidas e restabelecer o equilíbrio financeiro.
             </Text>
-            <Image src="../public/divida1.jpeg" alt="Renegociação de Dívidas" borderRadius="md" />
+            <Image src="/divida1.jpeg" alt="Renegociação de Dívidas" borderRadius="md" />
           </VStack>
         </Container>
       </Box>

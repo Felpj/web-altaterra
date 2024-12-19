@@ -21,7 +21,7 @@ const Seguros: React.FC = () => {
             <Text fontSize="xl">
               Proteja sua operação contra uma variedade de riscos com nossos seguros robustos.
             </Text>
-            <Image src="../public/seguro1.jpeg" alt="Seguros" borderRadius="md" />
+            <Image src="/seguro1.jpeg" alt="Seguros" borderRadius="md" />
           </VStack>
         </Container>
       </Box>

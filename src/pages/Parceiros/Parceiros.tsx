@@ -14,7 +14,7 @@ const Parceiros: React.FC = () => {
               px={4}
               boxShadow="lg"
               borderRadius="md"
-              backgroundImage="url('../public/parceiros.jpeg')"
+              backgroundImage="url('/parceiros.jpeg')"
               backgroundSize="cover" // Ajusta tamanho da imagem
               backgroundPosition="center" // Centraliza em todas as telas
               height={{ base: "60vh", sm: "70vh", md: "80vh" }} // Altura responsiva
@@ -80,7 +80,7 @@ const Parceiros: React.FC = () => {
                 Excelência em seguros pessoais e empresariais, oferecendo soluções diferenciadas para o setor agrícola.
               </Text>
               {/* Logo da Vida de Ouro (Substituir pela logo real) */}
-              <Image src="../public/vidaOuro.png" boxSize="200px" alt="Vida de Ouro Logo" borderRadius="md" />
+              <Image src="/vidaOuro.png" boxSize="200px" alt="Vida de Ouro Logo" borderRadius="md" />
             </VStack>
           </Container>
         </Box>
@@ -149,7 +149,7 @@ const Parceiros: React.FC = () => {
                 Consultoria técnica e inovação no agronegócio, impulsionando eficiência e sustentabilidade.
               </Text>
               {/* Logo da StudioAgro (Substituir pela logo real) */}
-              <Image src="../public/studioAgro1.png" alt="StudioAgro Logo" boxSize="200px" borderRadius="md" />
+              <Image src="/studioAgro1.png" alt="StudioAgro Logo" boxSize="200px" borderRadius="md" />
             </VStack>
           </Container>
         </Box>

@@ -35,6 +35,7 @@ const Home: React.FC = () => {
   height={{ base: "60vh", sm: "70vh", md: "80vh" }} // Ajusta a altura em dispositivos menores
   width="100%"
   overflow="hidden"
+  textShadow="1px 1px 5px rgba(0, 0, 0, 0.8)"
   _before={{
     content: '""',
     position: "absolute",
@@ -150,7 +151,7 @@ const Home: React.FC = () => {
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8}>
               {/* Exemplo de 3 colunas por linha, ajustar conforme a quantidade de serviços */}
               <VStack align="start" spacing={4} bg="#ffffff" color="#331400" p={4} borderRadius="md">
-                <Image src="../public/ruralCredit.webp" alt="Crédito Rural" borderRadius="md" />
+                <Image src="../public/creditoRural1.jpeg" alt="Crédito Rural" borderRadius="md" />
                 <Heading as="h3" size="md" color="#3aab36">Crédito Rural</Heading>
                 <Text fontSize="sm">Linhas de financiamento adaptáveis a cada fase do ciclo produtivo.</Text>
                 <Button as={RouterLink} to="/servicos/credito-rural" size="sm" bg="#3aab36" color="#ffffff" _hover={{ bg: '#64b145' }}>
@@ -159,7 +160,7 @@ const Home: React.FC = () => {
               </VStack>
 
               <VStack align="start" spacing={4} bg="#ffffff" color="#331400" p={4} borderRadius="md">
-                <Image src="../public/seguro.webp" alt="Seguros" borderRadius="md" />
+                <Image src="../public/seguro1.jpeg" alt="Seguros" borderRadius="md" />
                 <Heading as="h3" size="md" color="#3aab36">Seguros</Heading>
                 <Text fontSize="sm">Proteja sua operação contra riscos climáticos e imprevistos.</Text>
                 <Button as={RouterLink} to="/servicos/seguros" size="sm" bg="#3aab36" color="#ffffff" _hover={{ bg: '#64b145' }}>
@@ -168,7 +169,7 @@ const Home: React.FC = () => {
               </VStack>
 
               <VStack align="start" spacing={4} bg="#ffffff" color="#331400" p={4} borderRadius="md">
-                <Image src="../public/divida.webp" alt="Renegociação de Dívidas" borderRadius="md" />
+                <Image src="../public/divida1.jpeg" alt="Renegociação de Dívidas" borderRadius="md" />
                 <Heading as="h3" size="md" color="#3aab36">Renegociação de Dívidas</Heading>
                 <Text fontSize="sm">Reestruture dívidas e recupere o equilíbrio financeiro.</Text>
                 <Button as={RouterLink} to="/servicos/renegociacao-dividas" size="sm" bg="#3aab36" color="#ffffff" _hover={{ bg: '#64b145' }}>
@@ -177,7 +178,7 @@ const Home: React.FC = () => {
               </VStack>
 
               <VStack align="start" spacing={4} bg="#ffffff" color="#331400" p={4} borderRadius="md">
-                <Image src="../public/tributario.webp" alt="Revisões Tributárias" borderRadius="md" />
+                <Image src="../public/tributario1.jpeg" alt="Revisões Tributárias" borderRadius="md" />
                 <Heading as="h3" size="md" color="#3aab36">Revisões Tributárias</Heading>
                 <Text fontSize="sm">Otimização fiscal e compliance para seu negócio.</Text>
                 <Button as={RouterLink} to="/servicos/revisoes-tributarias" size="sm" bg="#3aab36" color="#ffffff" _hover={{ bg: '#64b145' }}>
@@ -186,7 +187,7 @@ const Home: React.FC = () => {
               </VStack>
 
               <VStack align="start" spacing={4} bg="#ffffff" color="#331400" p={4} borderRadius="md">
-                <Image src="../public/holding.webp" alt="Formação de Holdings" borderRadius="md" />
+                <Image src="../public/holding1.jpeg" alt="Formação de Holdings" borderRadius="md" />
                 <Heading as="h3" size="md" color="#3aab36">Formação de Holdings</Heading>
                 <Text fontSize="sm">Estruture seu negócio para o longo prazo e sucessão.</Text>
                 <Button as={RouterLink} to="/servicos/formacao-holdings" size="sm" bg="#3aab36" color="#ffffff" _hover={{ bg: '#64b145' }}>
@@ -195,7 +196,7 @@ const Home: React.FC = () => {
               </VStack>
 
               <VStack align="start" spacing={4} bg="#ffffff" color="#331400" p={4} borderRadius="md">
-                <Image src="../public/imovel.webp" alt="Avaliação de Imóveis Rurais" borderRadius="md" />
+                <Image src="../public/imovel1.jpeg" alt="Avaliação de Imóveis Rurais" borderRadius="md" />
                 <Heading as="h3" size="md" color="#3aab36">Avaliação de Imóveis Rurais</Heading>
                 <Text fontSize="sm">Conheça o valor real de suas propriedades.</Text>
                 <Button as={RouterLink} to="/servicos/avaliacao-imoveis" size="sm" bg="#3aab36" color="#ffffff" _hover={{ bg: '#64b145' }}>
@@ -225,8 +226,8 @@ const Home: React.FC = () => {
               Com a Vida de Ouro e a StudioAgro, ampliamos nossas capacidades, oferecendo soluções ainda mais completas e inovadoras.
             </Text>
             <HStack spacing={8}>
-              <Image src="/images/vida_de_ouro_logo.jpg" alt="Vida de Ouro" boxSize="100px" borderRadius="md" />
-              <Image src="/images/studioagro_logo.jpg" alt="StudioAgro" boxSize="100px" borderRadius="md" />
+              <Image src="../public/vidaOuro.png" alt="Vida de Ouro" boxSize="200px" borderRadius="md" />
+              <Image src="../public/studioAgro1.png" alt="StudioAgro" boxSize="200px" borderRadius="md" />
             </HStack>
             <Button 
               as={RouterLink} 

@@ -21,7 +21,7 @@ const CreditoRural: React.FC = () => {
             <Text fontSize="xl">
               Linhas de crédito adaptáveis para apoiar cada fase do seu ciclo produtivo.
             </Text>
-            <Image src="/images/credito_rural_destaque.jpg" alt="Crédito Rural" borderRadius="md" />
+            <Image src="../public/creditoRural1.jpeg"  alt="Crédito Rural" borderRadius="md" />
           </VStack>
         </Container>
       </Box>

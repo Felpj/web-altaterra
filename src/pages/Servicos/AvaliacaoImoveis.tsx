@@ -21,7 +21,7 @@ const AvaliacaoImoveis: React.FC = () => {
             <Text fontSize="xl">
               Com expertise e precisão, oferecemos serviços de avaliação de imóveis rurais, auxiliando em decisões financeiras e estratégicas.
             </Text>
-            <Image src="/images/avaliacao_imoveis_destaque.jpg" alt="Avaliação de Imóveis Rurais" borderRadius="md" />
+            <Image src="../public/imovel1.jpeg" alt="Avaliação de Imóveis Rurais" borderRadius="md" />
           </VStack>
         </Container>
       </Box>

@@ -13,7 +13,7 @@ import ConsultoriaPersonalizada from './ConsultoriaPersonalizada';
 
 const Servicos: React.FC = () => {
   return (
-    <Box>
+    <Box bg="">
       {/* Seção de Introdução */}
       <Box bg="#331400" color="#ffffff" py={16}>
         <Container maxW="6xl">

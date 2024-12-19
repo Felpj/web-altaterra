@@ -21,7 +21,7 @@ const ConsultoriaPersonalizada: React.FC = () => {
             <Text fontSize="xl">
               Oferecemos consultoria personalizada para atender às necessidades específicas do seu negócio, incluindo:
             </Text>
-            <Image src="/images/consultoria_destaque.jpg" alt="Consultoria Personalizada" borderRadius="md" />
+            <Image src="../public/consultoria1.jpeg" alt="Consultoria Personalizada" borderRadius="md" />
           </VStack>
         </Container>
       </Box>
